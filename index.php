@@ -9,8 +9,8 @@ use Mpdf\QrCode\Output;
 //INSTANCIA PRINCIPAL DO PAYLOAD
 $obPayload=(new Payload)->setPixKey('12345678900')
                         ->setDescription('Pagamento do pedido 123456')  
-                        ->setMerchantName('Wilson Oliveira')    
-                        ->setMerchantCity('RIO DE JANEIRO')                    
+                        ->setMerchantName('John Doe')    
+                        ->setMerchantCity('LEOPOLDINA')                    
                         ->setAmount('100.00')                                   
                         ->setTxid('WDEV1234');     
 
